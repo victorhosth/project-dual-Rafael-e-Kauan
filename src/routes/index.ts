@@ -1,9 +1,8 @@
 import { Router } from "express";
-import * as homeController from "../controllers/homeController"
+import * as HomeController from "../controllers/homeController";
 
+const router = Router();
 
-const router = Router()
+router.get('/', HomeController.home);
 
-router.get('/', homeController.home)
-
-export default router
+export default router;
