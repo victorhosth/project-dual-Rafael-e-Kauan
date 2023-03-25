@@ -1,1 +1,106 @@
-<h2>Página admin</h2>
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+    <title>Anotador online</title>
+</head>
+
+<body>
+    <header class="bdark2 jcenter">
+        <div class="container acenter">
+            <div class="logo">
+                logo
+            </div>
+            <div class="flex buttons-users">
+                <a class="button btn_register bcor-destaque">
+                    Cadastro
+                </a>
+                <a class="button btn_login bdark2">
+                    Login
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <main class="">
+        <section id="banner-header" class="bdark3 ajcenter">
+            <div class="container">
+                <div class="sliders flex">
+                    <div class="slide slide_0">Meu slide 1</div>
+                    <div class="slide slide_0">Meu slide 22</div>
+                    <div class="slide slide_0">Meu slide 333</div>
+                    <div class="slide slide_0">Meu slide 4444</div>
+                </div>
+            </div>
+        </section>
+        <section id="test" class="jcenter">
+            <div class="container">
+                em breve, mais conteúdo aqui
+            </div>
+        </section>
+    </main>
+    <section id="modals" class="ajcenter none">
+        <div class="modal_item colunm login none bdark2">
+            <div class="container_close ajcenter bdark3">
+                <h2>Login</h2>
+            </div>
+            <div class="button_close_popup pointer">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+            </div>
+            <div class="container-form ajcenter">
+                <form action="" class="column">
+                    <label for="login_email">E-mail</label>
+                    <input type="email" name="login_email" id="login_email">
+
+                    <label for="login_password">Senha</label>
+                    <input type="password" name="login_password" id="login_password">
+                    <p>Esqueceu a senha?</p>
+                    <input type="submit" value="Entrar">
+                    <div class="jcenter">
+                        <p>Não possui cadastro? <span class="pointer">clique aqui</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal_item colunm register none bdark2">
+            <div class="container_close ajcenter bdark3">
+                <h2>Cadastro</h2>
+            </div>
+            <div class="button_close_popup pointer">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+            </div>
+            <div class="container-form ajcenter">
+                <form action="" class="column">
+                    <label for="register_name">Nome</label>
+                    <input type="name" name="register_name" id="register_name">
+
+                    <label for="register_email">E-mail</label>
+                    <input type="email" name="register_email" id="register_email">
+
+                    <label for="register_password">Senha</label>
+                    <input type="password" name="register_password" id="register_password">
+
+                    <input type="submit" value="Entrar">
+                    <div class="jcenter">
+                        <p>Já possui uma conta? <span class="pointer">login</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="home.js"></script>
+</body>
+
+</html>
