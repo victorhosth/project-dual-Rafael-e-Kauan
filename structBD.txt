@@ -1,0 +1,20 @@
+users
+- id
+- name
+- email
+- passwordHash
+
+
+anotações
+- id
+- userId
+- idCategory
+- date 
+- color
+- title
+- description
+
+
+categorias
+- id
+- nameCategory
