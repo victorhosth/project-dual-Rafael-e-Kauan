@@ -18,3 +18,18 @@ BACK-END
 -cadastro/login
 --sistema de autenticacao
 ---verficacao usuario logado
+
+
+Requisições
+    Mostrar todas as anotações:
+        procurar notes com userId atual
+    Mostrar Notas por idCategory
+        pegar todar notes com userId atual
+            filtrar por idCategory escolhida
+        
+    Mostrar conteúdos da nota
+        pegar todas NoteItem
+            filtrar por idNotes
+                exibir body
+
+            by kauan
