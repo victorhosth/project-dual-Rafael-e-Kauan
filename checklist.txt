@@ -1,0 +1,20 @@
+FRONT-END
+-terminar tela home
+-botao logout 
+-hover no editar/deletar
+
+BACK-END
+-verificacao de configuracoes da pagina
+-filtro categoria ao abrir
+-criar tela de filtro de categorias
+---criar modo edicao de categoria
+-contador de notas de acordo com filtro
+-formulario de busca na categoria atual
+---procurar pelo titulo 
+---procurar pelo conteudo
+---filtrar ao digitar
+-abrir uma rota unica para edicao unica de uma nota
+
+-cadastro/login
+--sistema de autenticacao
+---verficacao usuario logado
