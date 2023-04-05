@@ -2,28 +2,32 @@ import { Model, DataTypes } from 'sequelize';
 import { sequelize } from '../database/pg';
 
 interface UserInstances extends Model {
-    id: number;
-    name: string;
-    email: string;
-    passwordHash: string
+  id: number;
+  name: string;
+  email: string;
+  passwordHash: string;
 }
 
-export const User = sequelize.define<UserInstances>('User', {
+export const User = sequelize.define<UserInstances>(
+  'User',
+  {
     id: {
-        type: DataTypes.NUMBER,
-        primaryKey: true,
-        autoIncrement: true
+      type: DataTypes.NUMBER,
+      primaryKey: true,
+      autoIncrement: true
     },
     name: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING
     },
     email: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING
     },
     passwordHash: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING
     }
-}, {
+  },
+  {
     timestamps: false,
     tableName: 'users'
-});
+  }
+);

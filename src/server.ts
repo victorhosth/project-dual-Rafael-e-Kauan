@@ -1,8 +1,8 @@
-import Express from "express";
-import mustache from "mustache-express";
-import dotenv from "dotenv";
-import path from "path";
-import mainRoutes from "./routes";
+import Express from 'express';
+import mustache from 'mustache-express';
+import dotenv from 'dotenv';
+import path from 'path';
+import mainRoutes from './routes';
 
 dotenv.config();
 
@@ -17,5 +17,5 @@ server.use(Express.static(path.join(__dirname, '../public')));
 server.use(mainRoutes);
 
 server.listen(process.env.PORT, () => {
-    console.log(`server is running in port ${process.env.PORT}`);
+  console.log(`server is running in port ${process.env.PORT}`);
 });
