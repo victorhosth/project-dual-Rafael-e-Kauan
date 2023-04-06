@@ -36,3 +36,9 @@ function closeModals() {
   popupLogin.classList.add("none");
   popupRegister.classList.add("none");
 }
+
+modals.addEventListener("mousedown", function (e) {
+  if (e.target === modals) {
+    closeModals();
+  }
+});
